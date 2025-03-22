@@ -14,6 +14,7 @@ export class GifService {
 
     constructor() {
         this.loadTrendingGifs();
+        //console.log('Servicio creado');
     }
 
     loadTrendingGifs() {
